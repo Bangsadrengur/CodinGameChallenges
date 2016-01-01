@@ -36,7 +36,7 @@ loop links exitGateways= do
     
     -- hPutStrLn stderr "Debug messages..."
     
-    let cut = linkToSever (links ++ map(\(x, y) -> (y, x)) links) exitGateways si
+    let cut = linkToSever links exitGateways si
     let (node1, node2) = sortTuple cut
     let output = show node1 ++ " " ++ show node2
     putStrLn output
