@@ -37,27 +37,21 @@ loop links exitGateways= do
     -- hPutStrLn stderr "Debug messages..."
     
     let cut = linkToSever links exitGateways si
-    let (node1, node2) = sortTuple cut
-    let output = show node1 ++ " " ++ show node2
-    putStrLn output
+    let (n1, n2) = cut
+    putStrLn $ show n1 ++ " " ++ show n2
     
-    loop [c | c <- links, c /= cut, c /= (sortTuple cut)] exitGateways
+    loop [c | c <- links, c /= cut] exitGateways
 
 linkToSever :: [(Int, Int)] -> [Int] -> Int -> (Int, Int)
 linkToSever links gateways agent
     | length criticalNodes /= 0 = criticalNodes !! 0
     | otherwise = nodes !! 0
-    where nodes = nodeNextToGateway links gateways
+    where nodes = nodesNextToGateway links gateways
           criticalNodes = agentNextToGateway links agent gateways
           
 agentNextToGateway :: [(Int, Int)] -> Int -> [Int] -> [(Int, Int)]
 agentNextToGateway links agent gateways = 
     filter (\link -> snd link == agent && elem (fst link) gateways) links
   
-nodeNextToGateway :: [(Int, Int)] -> [Int] -> [(Int, Int)]
-nodeNextToGateway links gateways = filter (\link -> elem (fst link) gateways || elem (snd link) gateways) links
-
-sortTuple :: (Int, Int) -> (Int, Int)
-sortTuple (x, y) 
-    | x > y = (y, x)
-    | otherwise = (x, y)
+nodesNextToGateway :: [(Int, Int)] -> [Int] -> [(Int, Int)]
+nodesNextToGateway links gateways = filter (\link -> elem (fst link) gateways || elem (snd link) gateways) links
