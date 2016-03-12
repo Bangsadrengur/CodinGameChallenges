@@ -45,6 +45,13 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 
+*Defibrillators*
+
+- [x] Javascript
+- [x] Haskell
+- [x] OCAML
+- [ ] Scala
+
 *Horse-racing Duals*
 
 - [ ] Javascript
