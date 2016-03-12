@@ -21,7 +21,7 @@ let getDefibs defibCount =
     in getDefibs' defibCount []
 ;;
 
-let calcX lonA latA lonB latB = (lonB -. lonA) *. cos((latA +. latB) /. 2.0);;
+let calcX lonA latA lonB latB = (lonA -. lonB) *. cos((latA +. latB) /. 2.0);;
 let calcY latA latB = latB -. latA;;
 let calcd x y = sqrt(x *. x +. y *. y) *. 6371.0;;
 let calcDistance lonA latA (lonB, latB) = 
@@ -32,9 +32,9 @@ let calcDistance lonA latA (lonB, latB) =
 
 let getCoords defib = 
     let latSplit = mySplit (List.hd defib) ',' in
-    let lat = float_of_string (String.concat "." latSplit) in
+    let lat = float_of_string (String.concat "." (List.rev latSplit)) in
     let lonSplit = mySplit (List.hd (List.tl defib)) ',' in
-    let lon = float_of_string ((List.hd lonSplit) ^ "." ^ (List.hd (List.tl lonSplit))) in
+    let lon = float_of_string (String.concat "." (List.rev lonSplit)) in
     (lon, lat)
 ;;
 
@@ -54,8 +54,6 @@ let minDist = List.fold_left (fun a b ->
 let closest = List.find (fun defib ->
     let coords = getCoords defib in
     let dist = calcDistance' coords in
-    prerr_endline (string_of_float (dist -. minDist));
-    prerr_endline (List.nth defib 4);
-    dist -. minDist < 1e-10
+    dist = minDist
 ) defibs in
 print_endline (List.nth closest 4);
