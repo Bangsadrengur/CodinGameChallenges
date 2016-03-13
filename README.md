@@ -38,6 +38,20 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 
+*Mars Lander - Level 1*
+
+- [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*ASCII Art*
+
+- [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+
 *Chuck Norris*
 
 - [ ] Javascript
