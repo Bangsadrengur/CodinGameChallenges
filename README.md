@@ -58,6 +58,10 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+ 
+*MIME Type*
+
+- [x] Haskell -- TODO: Insert code
 
 *Defibrillators*
 
