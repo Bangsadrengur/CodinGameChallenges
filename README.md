@@ -61,7 +61,10 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
  
 *MIME Type*
 
-- [x] Haskell -- TODO: Insert code
+- [ ] Javascript
+- [x] Haskell
+- [ ] OCAML
+- [ ] Scala
 
 *Defibrillators*
 
