@@ -108,7 +108,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
-- 
+
 ## TOURNAMENTS
 *Platinum Rift*
 
