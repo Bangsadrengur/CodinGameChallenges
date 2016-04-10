@@ -102,6 +102,13 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 
+*Heat Detector*
+
+- [ ] Javascript
+- [x] Haskell
+- [ ] OCAML
+- [ ] Scala
+- 
 ## TOURNAMENTS
 *Platinum Rift*
 
