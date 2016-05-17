@@ -20,6 +20,10 @@ for (var i = 0; i < N; i++) {
     
     houses.push(house);
     
+    if(i === 0) {
+        xBoundary[0] = X;
+        xBoundary[1] = X;
+    }
     if(xBoundary[0] > X) xBoundary[0] = X;
     if(xBoundary[1] < X) xBoundary[1] = X;
 }
