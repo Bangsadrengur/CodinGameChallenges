@@ -5,10 +5,9 @@
 
 var N = parseInt(readline());
 var houses = [];
-var maxY = 0;
-var minY = 0;
-var maxX = 0;
-var minX = 0;
+var cost = 0;
+var xBoundary = [0, 0];
+
 for (var i = 0; i < N; i++) {
     var inputs = readline().split(' ');
     var X = parseInt(inputs[0]);
@@ -21,49 +20,25 @@ for (var i = 0; i < N; i++) {
     
     houses.push(house);
     
-    if(Y > maxY) maxY = Y;
-    if(Y < minY) minY = Y;
-    
-    if(X > maxX) maxX = X;
-    if(X < minX) minX = X;
+    if(xBoundary[0] > X) xBoundary[0] = X;
+    if(xBoundary[1] < X) xBoundary[1] = X;
 }
 
-var averageY = (maxY + minY) / 2;
-var houseYCount = [];
-
-for (var i = minY; i <= maxY; i++) {
-    houseYCount[i - minY] = 0;
-}
-
-houses.forEach(function(house) {
-    houseYCount[house.y - minY]++;
+houses.sort(function(a, b) {
+    return a.y - b.y;
 });
 
-var optimalValue = 0;
 
-printErr("minY", minY);
-houseYCount.forEach(function(value, index) {
-    printErr("optimal calc round", index, "value/count", value);
-    optimalValue += value * (index + minY);
-});
+var middleHouse = houses[Math.floor(houses.length / 2)];
 
-optimalValue /= houseYCount.length;
-printErr("optimalValue pre round", optimalValue);
-optimalValue = Math.ceil(optimalValue);
-
-printErr("averageY", averageY);
-printErr("houseYCount", houseYCount);
+printErr("middleHouse", middleHouse.x, middleHouse.y);
 houses.forEach(function(house) {
     printErr("house", house.x, house.y);
+    cost += Math.abs(house.y - middleHouse.y);
 });
-printErr("optimalValue", optimalValue)
 
-var cost = maxX - minX;
-printErr("deltaX", cost);
-
-houses.forEach(function(house) {
-    cost += Math.abs(house.y - optimalValue);
-});
+printErr("xBoundary", xBoundary[0], xBoundary[1]);
+cost += xBoundary[1] - xBoundary[0];
 
 // Write an action using print()
 // To debug: printErr('Debug messages...');
