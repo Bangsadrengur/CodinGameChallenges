@@ -81,13 +81,6 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Scala
 
 ## MEDIUM
-*Skynet: the Virus*
-
-- [ ] Javascript
-- [x] Haskell
-- [ ] OCAML
-- [ ] Scala
-
 *APU: Init Phase*
 
 - [ ] Javascript
@@ -95,7 +88,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 
-*Indiana - Level 1*
+*Skynet: the Virus*
 
 - [ ] Javascript
 - [x] Haskell
@@ -106,6 +99,41 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 
 - [ ] Javascript
 - [x] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*The Paranoid Android*
+
+- [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*Stock Exchange Losses*
+
+- [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*Indiana - Level 1*
+
+- [ ] Javascript
+- [x] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*Network Cabling*
+
+- [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+
+*Conway Sequence*
+
+- [x] Javascript
+- [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
 
