@@ -8,6 +8,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [x] OCAML
 - [x] Scala
+- [x] C++
 
 ## EASY
 *The Descent*
@@ -16,6 +17,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [x] OCAML
 - [ ] Scala
+- [x] C++
 
 *Power of Thor*
 
@@ -23,6 +25,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [x] OCAML
 - [x] Scala
+- [ ] C++
 
 *Skynet: the Chasm*
 
@@ -30,6 +33,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Temperatures*
 
@@ -37,6 +41,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Mars Lander - Level 1*
 
@@ -44,6 +49,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *ASCII Art*
 
@@ -51,6 +57,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Chuck Norris*
 
@@ -58,6 +65,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
  
 *MIME Type*
 
@@ -65,6 +73,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Defibrillators*
 
@@ -72,6 +81,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [x] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Horse-racing Duals*
 
@@ -79,6 +89,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [x] OCAML
 - [ ] Scala
+- [ ] C++
 
 ## MEDIUM
 *APU: Init Phase*
@@ -87,6 +98,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Skynet: the Virus*
 
@@ -94,6 +106,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Heat Detector*
 
@@ -101,6 +114,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *The Paranoid Android*
 
@@ -108,6 +122,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Stock Exchange Losses*
 
@@ -115,6 +130,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Indiana - Level 1*
 
@@ -122,6 +138,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Network Cabling*
 
@@ -129,6 +146,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 *Conway Sequence*
 
@@ -136,8 +154,13 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] Haskell
 - [ ] OCAML
 - [ ] Scala
+- [ ] C++
 
 ## TOURNAMENTS
 *Platinum Rift*
 
 - [x] Javascript
+- [ ] Haskell
+- [ ] OCAML
+- [ ] Scala
+- [ ] C++
