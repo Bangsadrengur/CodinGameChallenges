@@ -25,7 +25,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] Haskell
 - [x] OCAML
 - [x] Scala
-- [ ] C++
+- [x] C++
 
 *Skynet: the Chasm*
 
