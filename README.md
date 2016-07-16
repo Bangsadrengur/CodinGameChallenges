@@ -46,7 +46,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 *Mars Lander - Level 1*
 
 - [x] Javascript
-- [ ] Haskell
+- [x] Haskell
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
