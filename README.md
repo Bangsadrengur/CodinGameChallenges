@@ -90,6 +90,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [ ] Scala
 - [ ] C++
+- [x] Clojure
 
 ## MEDIUM
 *APU: Init Phase*
