@@ -18,6 +18,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [ ] Scala
 - [x] C++
+- [x] Clojure
 
 *Power of Thor*
 
