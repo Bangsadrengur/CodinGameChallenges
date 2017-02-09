@@ -9,6 +9,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [x] Scala
 - [x] C++
+- [ ] Clojure
 
 ## EASY
 *The Descent*
@@ -27,6 +28,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [x] Scala
 - [x] C++
+- [ ] Clojure
 
 *Skynet: the Chasm*
 
@@ -35,6 +37,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Temperatures*
 
@@ -43,6 +46,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Mars Lander - Level 1*
 
@@ -51,6 +55,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *ASCII Art*
 
@@ -59,6 +64,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Chuck Norris*
 
@@ -67,6 +73,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
  
 *MIME Type*
 
@@ -75,6 +82,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Defibrillators*
 
@@ -83,6 +91,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Horse-racing Duals*
 
@@ -91,6 +100,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [x] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 - [x] Clojure
 
 ## MEDIUM
@@ -101,6 +111,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Skynet: the Virus*
 
@@ -109,6 +120,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Heat Detector*
 
@@ -117,6 +129,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *The Paranoid Android*
 
@@ -125,6 +138,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Stock Exchange Losses*
 
@@ -133,6 +147,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Indiana - Level 1*
 
@@ -141,6 +156,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Network Cabling*
 
@@ -149,6 +165,7 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
 
 *Conway Sequence*
 
@@ -157,6 +174,16 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
+
+*War*
+
+- [ ] Javascript
+- [x] Haskell
+- [ ] OCAML
+- [ ] Scala
+- [ ] C++
+- [ ] Clojure
 
 ## TOURNAMENTS
 *Platinum Rift*
@@ -166,3 +193,4 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] OCAML
 - [ ] Scala
 - [ ] C++
+- [ ] Clojure
