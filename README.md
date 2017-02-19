@@ -185,6 +185,16 @@ Solutions to both single and multiplayer challanges on www.codingame.com.
 - [ ] C++
 - [ ] Clojure
 
+## HARD
+*Super Computer*
+
+- [ ] Javascript
+- [x] Haskell
+- [ ] OCAML
+- [ ] Scala
+- [ ] C++
+- [ ] Clojure
+
 ## TOURNAMENTS
 *Platinum Rift*
 
